@@ -10,7 +10,7 @@ while True:
     ret, frame = cam.read()
     roi =frame[50:250,200:400].copy() # creating copy so that roi is not white
     roiGray = cv2.cvtColor(roi,cv2.COLOR_BGR2GRAY)
-    roiGray = cv2.cvt.Color(roiGray,cv2.COLOR_GRAY2BGR)
+    roiGray = cv2.cvtColor(roiGray,cv2.COLOR_GRAY2BGR)
     frame[50:250,200:400] = [255,255,255]  #he pixel region is totally white 
     frame[50:250,200:400] = roiGray
     cv2.imshow("Gray_roi",roiGray)
