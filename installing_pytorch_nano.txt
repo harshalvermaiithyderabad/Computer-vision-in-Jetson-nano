@@ -1,5 +1,10 @@
-do installtions from scratch
+Do installtions from scratch
 
 https://qengineering.eu/install-pytorch-on-jetson-nano.html
 
 https://forums.developer.nvidia.com/t/cannot-install-pytorch/149226/4
+
+
+for yolo installations do have python >=3.7
+
+https://www.itsupportwale.com/blog/how-to-upgrade-to-python-3-7-on-ubuntu-18-10/
