@@ -38,6 +38,9 @@ export PATH=/usr/local/cuda-10.2/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64:$LD_LIBRARY_PATH
 python3 -m pip install pycuda --user
 
+# if xlocate error comes
+
+sudo ln -s /usr/include/locale.h /usr/include/xlocale.h
 
 Pycuda installations 
 # Remember to give proper cuda path 10.2.0
